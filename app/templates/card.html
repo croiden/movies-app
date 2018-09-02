@@ -1,0 +1,15 @@
+<div class="card" style="width: 20rem;">
+    <img class="card-img-top" src="{{poster}}" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">{{title}}</h5>
+        <p class="card-text">{{allGenre}}</p>
+
+        <div>
+            {{#each ratingArr}}
+                <span class="fa fa-star {{#if this}}mov-checked{{/if}}"></span>
+            {{/each}}
+        </div>
+
+        <a href="#" class="text-primary mov-show-more">Show more</a>
+    </div>
+</div>

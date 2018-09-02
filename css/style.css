@@ -1,0 +1,35 @@
+.all-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mov-flex-items{
+    display: flex;
+    justify-content: space-around;
+}
+.mov-card{
+    padding: 20px;
+}
+.mov-checked {
+    color: orange;
+}
+.mov-all-header{
+    display: flex;
+    justify-content: space-between;
+}
+.carousel-control-prev{
+    left:-100px;
+}
+.carousel-control-next{
+    right:-100px;
+}
+body{
+    background:#e8e8e8;
+}
+.mov-modal{
+    max-width: 60vw !important;
+}
+.mov-container{
+    margin-top: 20px;
+}
