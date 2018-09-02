@@ -29,7 +29,7 @@
                 render: function () {
                     var that = this;
                     if (_.isUndefined(that.model.get('ratingArr'))) {
-                        var rating = Math.ceil(that.model.get("rating"));
+                        var rating = Math.round(that.model.get("rating"));
                         var ratingArr = [];
                         for(var i=0;i<10;i++){
                             if(i<rating){
